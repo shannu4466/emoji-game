@@ -1,0 +1,22 @@
+/* Write your code here. */
+.container {
+  background-color: #6a59ff;
+  height: 100vh;
+}
+.emojis-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 575px) {
+  .emojis-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+}
